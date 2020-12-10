@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Ron Swanson CV</title>
+</head>
+
+<body bgcolor="#8bd8c6">
+    <table width="75%" align="center">
+
+        <tr>
+            <td width="33%">
+                <p align="center"><a href="index.html">Home</a></p>
+            </td>
+            <td width="33%">
+                <p align="center"><a href="contactUs.html">Contact Me</a></p>
+            </td>
+            <td width="33%">
+                <p align="center"><a href="skills.html">Skills</a></p>
+            </td>
+        </tr>
+    </table>
+    <hr>
+
+    <h2 align="center">Contact Information</h2>
+    <p align="center"><strong>Email:</strong> <em>Ron.Swanson@net.net</em></p>
+    <p align="center"><strong>Tel:</strong> 353 567 6789</p>
+    <p align="center"><strong>Website:</strong> <a href="http://www.google.com">www.GrillMeUpButtercup.com</a></p>
+
+    <hr>
+
+    <!-- FORM -->
+
+    <h2 align="center">Sign Up To My Mailing List</h2>
+    <p align="center"><em>I will email you a hot dog</em>
+    <p>
+
+    <table width="50%" align="center" cellpadding="20">
+        <tr>
+            <td>
+                <img src="images\tools.jpg" alt="Picture of DeWalt's freshest power Tools" width="400">
+            </td>
+            <td>
+                <form action="http://ss1.ciwcertified.com/cgi-bin/process.pl" method="POST" align="center">
+                    <div>
+                        <label for="first">First Name</label>
+                        <br>
+                        <input type="text" name="firstName" placeholder="Enter First Name" id="first" required>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="last">Last Name</label>
+                        <br>
+                        <input type="text" name="lastName" placeHolder="Enter Last Name" id="last">
+                    </div>
+                    <br>
+                    <div>
+                        <label>Email</label>
+                        <br>
+                        <input type="email" name="Email" placeHolder="Enter Email Address">
+                    </div>
+                    <br>
+                    <div>
+                        <label>Message</label>
+                        <br>
+                        <textarea name="message" placeHolder="Say something nice, or don't"></textarea>
+                    </div>
+                    <br>
+                    <div>
+                        <label>Gender</label>
+                        <br>
+                        <select name="gender">
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div>
+                        <label>Age:</label>
+                        <br>
+                        <input type="number" name="age" value="25">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="birthday">Birthday:</label>
+                        <br>
+                        <input type="date" name="birthday" id="birthday">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="day">Arrange A Meeting</label>
+                        <input list="weekdays" name="choose day" id="day" />
+                        <datalist id="weekdays">
+                            <option value="Monday">
+                            <option value="Tuesday">
+                            <option value="Wednesday">
+                            <option value="Thursday">
+                            <option value="Friday">
+                        </datalist>
+                    </div>
+                    <br>
+                    <p>Select a Handyman:</p>
+
+                    <div>
+                        <input type="radio" id="huey" name="Handyman" value="Ronald" checked>
+                        <label for="huey">Ronald</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" id="dewey" name="Handyman" value="Ronny">
+                        <label for="dewey">Ronny</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" id="louie" name="Handyman" value="Ronaldo">
+                        <label for="louie">Ronaldo</label>
+                    </div>
+                    <br>
+                    <input type="submit" name="submit" value="submit">
+                </form>
+            </td>
+            <td>
+                <img src="images/Kayak.jpg" alt="Picture Of A Beautifully Hand-Fashioned Kayak" width="400">
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
